@@ -11,17 +11,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Print greeting
+      - name: Say Hello
         run: echo "Hello from GitHub Actions!"
 
-      - name: Print date and time
+      - name: Show current date and time
         run: date
 
-      - name: Print branch name
+      - name: Show branch name
         run: echo "Branch: ${{ github.ref_name }}"
 
       - name: List repository files
         run: ls -la
 
-      - name: Print operating system
+      - name: Show operating system
         run: uname -a
