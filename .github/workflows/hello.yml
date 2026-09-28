@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Print greeting
-        run: echo "My First Github Actuon Workflow"
+        run: echo "Hello from GitHub Actions!"
 
       - name: Print date and time
         run: date
